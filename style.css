@@ -1,6 +1,226 @@
 * { 
     box-sizing: border-box;
 }
-.column {
-    background-color: blueviolet;
+
+* .container {
+    position: relative;
+    margin: auto;
+    padding: 0px;
+    width: 850px;
+    background-color: #3d6ad6;
+    max-width: 850px;
+    
 }
+.body {
+    background-color: grey;
+
+
+}
+.header {
+    position: relative;
+    width: 850px;
+    height: 400px;
+
+}
+
+.profile-pic {
+z-index: 5;
+    position: relative;
+    border: 1px solid black;
+    width: 160px;
+    height: 160px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRqoJ9nZn3CiLsoKfEXfT7xScIgPDI0hqoiineJx3XUrrFjfHnF&usqp=CAU);
+    background-repeat: no-repeat;
+    top: 300px;
+    left: 20px;
+    
+}
+.name {
+    position: relative;
+    top: 100px;
+    height: 120px;
+    width: 120px;
+    left: 200px;
+    color: white;
+    
+
+}
+.navbar {
+    position: relative;
+    width: 850px;
+    height: 50px;
+    background-color:#3d6ad6;
+    left: 0px;
+    top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+
+
+}
+
+.buttons {
+
+    position: relative;
+    left: 500px;
+    width: 350px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    background-color:#3d6ad6;
+    
+    
+}
+.bar {
+    left: 200px;
+    top: 0px;
+    position: relative;
+    width: 400px;
+    height: 40px;
+    background-color:l white;
+    
+
+}
+.bar h3 {
+    position: relative;
+    font-weight: lighter;
+    color:black;
+
+
+
+
+}
+.maincontent {
+    position: relative;
+    top: 10px;
+    border: 1px solid black;
+    background-color: lightgray;
+    float: right;
+    width: 512px;
+    height: 800px;
+    border: solid 2px black;
+    padding: 1px;
+
+
+
+}
+
+
+.box {position: relative;
+    left: auto;
+    height: 30px;
+    widows: 30px;
+    background-image: url(https://www.metmuseum.org/-/media/images/art/collection-landing-page/open-access/open-access_hokusai_great-wave.jpg?as=1&la=en&mh=908&mw=1440&hash=3822990A1BB0B5D763B16A8C08CC0E3B);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+   
+
+
+
+}
+.boxcon {
+    
+    border: 1px solid black;
+
+
+}
+
+.boxcon1 {
+    width: 120px;
+    height: 120px;
+    background-image: url(https://www.metmuseum.org/-/media/images/art/collection-landing-page/open-access/open-access_hokusai_great-wave.jpg?as=1&la=en&mh=908&mw=1440&hash=3822990A1BB0B5D763B16A8C08CC0E3B);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+
+}
+
+.tip {
+    border: 1px solid black;
+    background-color:lightgray;
+    position: relative;
+    
+
+
+
+}
+
+
+.seccontent {
+    display: flexbox;
+
+    position: relative;
+    top: 10px;
+    left: 0px;
+    width: 328px;
+    height: 800px;
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 1px;
+
+
+}
+
+.mini {
+    position: relative;
+    left: auto;
+    height: 40px;
+    widows: 40px;
+    background-image: url(https://www.metmuseum.org/-/media/images/art/collection-landing-page/open-access/open-access_hokusai_great-wave.jpg?as=1&la=en&mh=908&mw=1440&hash=3822990A1BB0B5D763B16A8C08CC0E3B);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+
+
+}
+.tip {
+    border:  2px solid black;
+
+}
+.tip1 {
+
+    position: relative;
+    border: 1px solid black;
+}
+
+.tipimg { position: relative;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+   
+    
+
+
+
+
+}
+.mini1{
+
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-image: url(https://images.metmuseum.org/CRDImages/ep/mobile-large/DT7252.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+.mini2 {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        background-image: url(https://images.metmuseum.org/CRDImages/ep/mobile-large/DP353257.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; 
+
+
+
+}
+
+
+
+
+
